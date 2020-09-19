@@ -86,7 +86,28 @@ function init() {
     }
 }
 
+var currentHour = parseInt(moment().format("H"));
 
+$(".ta").each(function() {
+
+    var timeBlock = parseInt($(this).attr("data-time"));
+
+    if (timeBlock < currentHour) {
+        $(this).addClass("past");
+    }
+
+    else if (timeBlock == currentHour) {
+        $(this).addClass("present");
+    }
+
+    else {
+        $(this).addClass("future");
+    }
+
+});
+
+
+}
 
 
 
