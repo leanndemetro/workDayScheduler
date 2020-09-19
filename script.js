@@ -86,46 +86,7 @@ function init() {
     }
 }
 
-var nineMt = document.getElementById("9").value = 9;
 
-console.log(nineMt);
-
-var tenMt = document.getElementById("10").value = 10;
-
-console.log(tenMt);
-
-var elevenMt = document.getElementById("10").value = 11;
-
-console.log(elevenMt);
-
-var twelveMt = document.getElementById("12").value = 12;
-
-console.log(twelveMt);
-
-var oneMt = document.getElementById("wun").value = 13;
-
-console.log(oneMt);
-
-var twoMt = document.getElementById("2").value = 14;
-
-console.log(twoMt);
-
-var threeMt = document.getElementById("3").value = 15;
-
-console.log(threeMt);
-
-var fourMt = document.getElementById("4").value = 16;
-
-console.log(fourMt);
-
-var fiveMt = document.getElementById("5").value = 17;
-
-console.log(fiveMt);
-
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    
-}
 
 
 
